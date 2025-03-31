@@ -1,4 +1,4 @@
-pynetbox==6.1.2
+pynetbox>=7.4.0
 netaddr==0.8.0
 netifaces==0.11.0
 pyyaml==6.0.1
@@ -6,3 +6,4 @@ jsonargparse==3.11.2
 python-slugify==8.0.1
 packaging==23.1
 distro==1.8.0
+setuptools>=65.0.0

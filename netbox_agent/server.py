@@ -272,7 +272,7 @@ class ServerBase():
         new_server = nb.dcim.devices.create(
             name=hostname,
             serial=serial,
-            device_role=device_role.id,
+            role=device_role.id,
             device_type=device_type.id,
             platform=self.device_platform.id,
             site=datacenter.id if datacenter else None,
